@@ -26,14 +26,14 @@ export default class TodoListItem extends Component {
 
         <button
           type="button"
-          className="btn btn-outline-danger btn-sm float-right"
+          className="btn btn-outline-danger btn-sm float-end"
         onClick={onDeleted}>
           del
         </button>
 
         <button
           type="button"
-          className="btn btn-outline-success btn-sm float-right"
+          className="btn btn-outline-success btn-sm float-end"
         onClick={onToggleImportant}>
           <i className="fa fa-exclamation" />
         </button>
